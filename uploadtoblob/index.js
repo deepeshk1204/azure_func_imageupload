@@ -13,7 +13,7 @@ module.exports = function (context, req) {
 
     blobService.createBlockBlobFromText('mycontainer', 'subFolder/' + req.body.filename + '.png', buffer, {
             contentType: type
-        }, (error, result, response) => {
+        }, (error, result) => {
             if (error) {
                 console.log(error);
                 context.res = {

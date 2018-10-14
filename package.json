@@ -1,0 +1,18 @@
+{
+  "name": "coachfunc",
+  "version": "1.0.0",
+  "description": "upload images to blob",
+  "main": "index.js",
+  "scripts": {
+    "start": "func start"
+  },
+  "author": "Deepesh Kumar",
+  "license": "ISC",
+  "dependencies": {
+    "azure-function-express": "^2.0.0",
+    "azure-storage": "^2.10.1",
+    "express": "^4.16.4",
+    "into-stream": "^4.0.0",
+    "multer": "^1.4.1"
+  }
+}

@@ -11,8 +11,5 @@
   "dependencies": {
     "azure-function-express": "^2.0.0",
     "azure-storage": "^2.10.1",
-    "express": "^4.16.4",
-    "into-stream": "^4.0.0",
-    "multer": "^1.4.1"
   }
 }

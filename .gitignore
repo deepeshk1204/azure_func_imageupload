@@ -5,6 +5,8 @@ csx
 edge
 Publish
 node_modules
+.vscode
+
 
 *.user
 *.suo
